@@ -6,7 +6,7 @@ on:
 jobs:
   List-all-items:
     runs-on:
-      ubuntu-lastest
+      ubuntu-latest
     steps:
       - name: list
-        run: ls -lah 
+        run: cat hello.txt
