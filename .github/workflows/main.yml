@@ -8,5 +8,7 @@ jobs:
     runs-on:
       ubuntu-latest
     steps:
+      - name: checkout
+        uses: actions/checkout@v4.2.2
       - name: list
         run: cat hello.txt
